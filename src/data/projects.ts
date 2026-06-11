@@ -46,7 +46,7 @@ export const projects: Project[] = [
       'Ended the descent by pushing through a window into a scroll scrubbed video, so the story continues inside.',
     ],
     outcome:
-      'A piece that shows my full range in one place: art direction, interaction design and the WebGL code to ship it.',
+      'A piece that shows my full range in one place: art direction, interaction design and an AI assisted build that shipped to production.',
     stats: [
       { value: '828m', label: 'of scroll driven descent' },
       { value: '3D', label: 'photoreal WebGL tower' },

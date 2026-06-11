@@ -10,7 +10,8 @@ const SKILLS = [
   'Design systems',
   'UX research',
   'Prototyping',
-  'Front-end (React & three.js)',
+  'AI assisted build (React & three.js)',
+  'WordPress',
 ]
 
 // EDIT: replace with your real process if it differs
@@ -58,8 +59,8 @@ export default function About() {
           </p>
           <p className="mt-4 max-w-xl text-[16px] leading-relaxed text-black/70 sm:text-[18px]">
             I care about the unglamorous parts: edge cases, empty states, what happens
-            when things fail. And I prototype in code, so the polish in my files
-            survives all the way to production.
+            when things fail. And I build my ideas with AI assisted code, so the polish
+            in my files survives all the way to production.
           </p>
 
           <div className="mt-8 flex max-w-xl flex-wrap gap-y-1">
