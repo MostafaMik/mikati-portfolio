@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useTypewriter } from '../hooks/useTypewriter'
 import { CheckIcon, CopyIcon } from './icons'
 
-export const CONTACT_EMAIL = 'hello@mmikati.co'
+export const CONTACT_EMAIL = 'mostafa.mikati@hotmail.com'
 
 const TYPEWRITER_TEXT =
   'Glad you stopped in. Good taste tends to find us. Now, here’s what I’ve been building.'
