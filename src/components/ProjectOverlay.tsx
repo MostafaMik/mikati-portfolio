@@ -28,6 +28,7 @@ export default function ProjectOverlay({
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose()
+      if (e.key === 'ArrowRight') onNext()
     }
     window.addEventListener('keydown', onKey)
     document.body.style.overflow = 'hidden'
@@ -35,7 +36,7 @@ export default function ProjectOverlay({
       window.removeEventListener('keydown', onKey)
       document.body.style.overflow = ''
     }
-  }, [onClose])
+  }, [onClose, onNext])
 
   return (
     <div
@@ -161,7 +162,9 @@ export default function ProjectOverlay({
           onClick={onNext}
           className="group mt-16 block w-full border-t border-black/15 pt-8 text-left"
         >
-          <span className="text-[15px] text-black/50 sm:text-[17px]">Next project</span>
+          <span className="text-[15px] text-black/50 sm:text-[17px]">
+            Next project <span className="hidden text-black/30 sm:inline">→</span>
+          </span>
           <span className="mt-2 flex items-baseline justify-between gap-4">
             <span
               className="leading-[1.05] text-black transition-transform duration-300 group-hover:translate-x-2"
