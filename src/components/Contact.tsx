@@ -3,8 +3,9 @@ import { useReveal } from '../hooks/useReveal'
 import { CheckIcon, CopyIcon } from './icons'
 import { CONTACT_EMAIL } from './Hero'
 
-// EDIT: add LinkedIn / Dribbble / Behance / Instagram here when handles are ready
+// EDIT: add Dribbble / Behance / Instagram here when handles are ready
 const SOCIALS = [
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/moustafa-mikati/' },
   { label: 'GitHub', href: 'https://github.com/MostafaMik' },
 ]
 
