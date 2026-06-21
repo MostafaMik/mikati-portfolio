@@ -85,29 +85,29 @@ export const projects: Project[] = [
     id: 'authoria',
     index: '03',
     title: 'Authoria',
-    tagline: 'Finding where AI should help authors, and where it should step back',
+    tagline: 'An AI for novelists that never writes a word, only asks sharper questions',
     year: '2026',
-    role: 'Product design',
-    tags: ['AI', 'Writing', 'App'],
+    role: 'Concept & product design',
+    tags: ['AI', 'Writing app', 'Concept'],
     tools: ['Figma'], // EDIT: your real toolchain
     accent: '#9d8fa6',
-    // EDIT: tighten this with the real problem, users and findings from your course brief
     overview:
-      'Authoria is a concept app exploring how AI can support authors without taking over their voice. The brief was open ended: work out where in the writing process AI genuinely helps, then design an experience around exactly those moments.',
+      'Authoria is a writing app for fiction authors. Writers draft their novel inside it, chapter by chapter, while AI agents read everything and surface the gaps in the story: a fear with no origin, a world with no texture, an ending that has not been earned. The twist is what the AI never does. It never writes a single word. Its only output is questions.',
     challenge:
-      'Most AI writing tools try to write for you, which is the one thing serious authors do not want. The real question was narrower and harder: where does a writer actually want a second pair of hands, and where do they want to be left completely alone?',
+      'Every AI writing tool races to generate text, which is exactly what serious novelists do not want. The design problem was the opposite of autocomplete: how do you build an AI that holds back, reads deeply, and helps an author think without ever touching their voice?',
     approach: [
-      'Mapped the writing journey to find the moments where authors get stuck, rather than the moments that are easy to automate.',
-      'Framed AI as suggestions the author always stays in control of, never as words written on their behalf.',
-      'Kept the writing surface calm and distraction free, with assistance a keystroke away instead of in your face.',
-      'Prototyped the core flows in Figma and pressure tested them against real writing tasks.', // EDIT
+      'Built the questioning around two lenses: a craft methodology (the Architect for cause and effect, the Gardener for character psychology) and literary masters (Balzac for physical and social detail, Proust for emotional depth, Dickens for unearned endings), each grounded in research into how the real author actually worked.',
+      'Designed the writing surface to disappear: serif typography, generous margins, no distractions, while questions collect quietly on a notepad until the writer is ready for them.',
+      'Made the questioning a ritual, not a feature. One question fills the screen like a spotlight, the writer answers by voice or text, and every answer flows into a living Character Bible.',
+      'Used silence as the signal no other tool gives: when the agents run out of questions, the screen goes quiet, telling the writer their planning is deep enough to go write.',
+      'Extended it to a mobile Walk and Talk mode that turns spoken thoughts into new questions, plus pacing goals that default off, with no streaks and no guilt.',
     ],
     outcome:
-      'A concept for an AI writing companion that respects authorship: it helps you think, structure and get unstuck, while the words stay yours.',
+      'The AI reads everything the author writes, including the manuscript, yet generates nothing: not one word, not one suggestion, not one autocomplete. The voice stays entirely the author\'s own. Every other AI tool answers your questions. Authoria is the first that asks better ones.',
     stats: [
-      { value: 'AI', label: 'companion for authors' },
+      { value: '0', label: 'words written by the AI' },
+      { value: 'Masters', label: 'Balzac, Proust, Dickens lenses' },
       { value: 'Concept', label: 'course project' },
-      { value: 'Figma', label: 'designed and prototyped' },
     ],
   },
 ]
