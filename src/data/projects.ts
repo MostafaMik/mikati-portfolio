@@ -1,8 +1,8 @@
 // ============================================================
-// Your three projects. The structure is final but the copy is
+// Your four projects. The structure is final but the copy is
 // a first draft: replace details marked EDIT with the real
 // story, tools and numbers from each project when ready.
-// Never ship a metric you can't back up.
+// Keep every claim true to what actually happened.
 // ============================================================
 
 export type Project = {
@@ -25,8 +25,38 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'burj',
+    id: 'designcircle',
     index: '01',
+    title: 'Design Circle Community',
+    tagline: 'A research led community for creatives, built around mental health and peer exchange',
+    year: '2026',
+    role: 'UX/UI designer, team project',
+    tags: ['UX research', 'Web', 'Team project'],
+    tools: ['Figma', 'FigJam', 'WordPress', 'Elementor'],
+    accent: '#8fa99a',
+    // EDIT: paste your Figma prototype link here as `link:` to show a "View the Figma" button
+    overview:
+      'Design Circle Community is a website for people in the creative design professions, built around mental health, peer exchange and community. I worked on it in a team and was involved across every phase, from the first research through to the built site.',
+    challenge:
+      'Creative work can be isolating and quietly hard on mental health, yet the people who feel it rarely have a dedicated, safe place to open up and support each other. The design had to feel warm and calm rather than clinical, and the structure had to match how our audience actually thinks, not how we assumed they do.',
+    approach: [
+      'Ran the full research loop: defined the target groups, designed and fielded a survey, then turned the results into personas that kept the team honest about who we were building for.',
+      'Validated the structure with card sorting and shaped the findings into an information architecture and a clear page hierarchy.',
+      'Moved from scribbles to wireframes to an interactive Figma prototype, refining the flows at every step.',
+      'Usability tested the prototype, analysed the sessions and evaluated the design against what we learned before committing to the visuals.',
+      'Ran an accessibility check, then built the final site in WordPress with Elementor straight from the Figma designs.',
+    ],
+    outcome:
+      'My most complete end to end UX project: a calm, community first website grounded in real research and testing instead of assumptions, and proof that I can carry a product from a blank brief to a finished build inside a team.',
+    stats: [
+      { value: 'Team', label: 'all phases, end to end' },
+      { value: 'Research', label: 'survey, personas, card sorting' },
+      { value: 'Tested', label: 'usability tested and iterated' },
+    ],
+  },
+  {
+    id: 'burj',
+    index: '02',
     title: 'Burj Khalifa',
     tagline: 'A scroll powered descent down the tallest tower on earth',
     year: '2026',
@@ -55,7 +85,7 @@ export const projects: Project[] = [
   },
   {
     id: 'precis',
-    index: '02',
+    index: '03',
     title: 'Precis',
     tagline: 'An AI summarizer that gives you back your reading time',
     year: '2026',
@@ -83,7 +113,7 @@ export const projects: Project[] = [
   },
   {
     id: 'authoria',
-    index: '03',
+    index: '04',
     title: 'Authoria',
     tagline: 'An AI for novelists that never writes a word, only asks sharper questions',
     year: '2026',
