@@ -86,7 +86,7 @@ export default function Work({ onOpen }: { onOpen: (id: string) => void }) {
       <div ref={header.ref} style={header.style} className="mb-10 sm:mb-14">
         <p className="text-[15px] text-black/50 sm:text-[17px]">01 / Selected work</p>
         <p className="mt-3 max-w-xl text-black" style={{ fontSize: 'clamp(18px, 3vw, 26px)', lineHeight: 1.35 }}>
-          Three projects spanning 3D web, AI tools and B2B SaaS. Click in for the full story.
+          Three projects spanning interactive 3D, AI tools and product design. Click in for the full story.
         </p>
       </div>
 

@@ -46,7 +46,7 @@ export const projects: Project[] = [
       'Ended the descent by pushing through a window into a scroll scrubbed video, so the story continues inside.',
     ],
     outcome:
-      'A piece that shows my full range in one place: art direction, interaction design and an AI assisted build that shipped to production.',
+      'A piece that shows my full range in one place: art direction, interaction design and an AI assisted build I deployed live.',
     stats: [
       { value: '828m', label: 'of scroll driven descent' },
       { value: '3D', label: 'photoreal WebGL tower' },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     index: '02',
     title: 'Precis',
     tagline: 'An AI summarizer that gives you back your reading time',
-    year: '2025', // EDIT if needed
+    year: '2026',
     role: 'Product design',
     tags: ['AI', 'App', 'Productivity'],
     tools: ['Figma'], // EDIT: your real toolchain
@@ -82,31 +82,32 @@ export const projects: Project[] = [
     ],
   },
   {
-    id: 'miftah',
+    id: 'authoria',
     index: '03',
-    title: 'Miftah',
-    tagline: 'One workspace for real estate brokers across the Gulf',
-    year: '2025', // EDIT if needed
+    title: 'Authoria',
+    tagline: 'Finding where AI should help authors, and where it should step back',
+    year: '2026',
     role: 'Product design',
-    tags: ['B2B SaaS', 'Real estate', 'GCC'],
-    tools: ['Figma', 'FigJam'], // EDIT: your real toolchain
-    accent: '#94a08a',
+    tags: ['AI', 'Writing', 'App'],
+    tools: ['Figma'], // EDIT: your real toolchain
+    accent: '#9d8fa6',
+    // EDIT: tighten this with the real problem, users and findings from your course brief
     overview:
-      'Miftah, Arabic for key, is a SaaS platform for real estate brokers in the Gulf. It brings listings, leads and deals into one bilingual workspace shaped around how brokerages in the region actually run.',
+      'Authoria is a concept app exploring how AI can support authors without taking over their voice. The brief was open ended: work out where in the writing process AI genuinely helps, then design an experience around exactly those moments.',
     challenge:
-      'Gulf brokers juggle WhatsApp threads, spreadsheets and portal logins all day. The product had to replace that mess without forcing teams to change how they sell, and it had to work as naturally in Arabic as in English.',
+      'Most AI writing tools try to write for you, which is the one thing serious authors do not want. The real question was narrower and harder: where does a writer actually want a second pair of hands, and where do they want to be left completely alone?',
     approach: [
-      'Talked to brokers and office managers to map a deal from first call to commission.',
-      'Designed the core flows around the phone, because that is where brokers spend their day.',
-      'Made the interface fully bidirectional, giving Arabic and English equal design attention.',
-      'Built a component library that handles RTL, currency and unit conventions across GCC markets.',
+      'Mapped the writing journey to find the moments where authors get stuck, rather than the moments that are easy to automate.',
+      'Framed AI as suggestions the author always stays in control of, never as words written on their behalf.',
+      'Kept the writing surface calm and distraction free, with assistance a keystroke away instead of in your face.',
+      'Prototyped the core flows in Figma and pressure tested them against real writing tasks.', // EDIT
     ],
     outcome:
-      'A workspace brokers can run their whole day in, designed for the realities of the Gulf market instead of a translated western template.',
+      'A concept for an AI writing companion that respects authorship: it helps you think, structure and get unstuck, while the words stay yours.',
     stats: [
-      { value: 'RTL', label: 'Arabic first interface' },
-      { value: 'GCC', label: 'built for Gulf markets' },
-      { value: 'B2B', label: 'made for broker teams' },
+      { value: 'AI', label: 'companion for authors' },
+      { value: 'Concept', label: 'course project' },
+      { value: 'Figma', label: 'designed and prototyped' },
     ],
   },
 ]

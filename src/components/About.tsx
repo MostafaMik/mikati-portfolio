@@ -60,7 +60,7 @@ export default function About() {
           <p className="mt-4 max-w-xl text-[16px] leading-relaxed text-black/70 sm:text-[18px]">
             I care about the unglamorous parts: edge cases, empty states, what happens
             when things fail. And I build my ideas with AI assisted code, so the polish
-            in my files survives all the way to production.
+            in my files survives all the way into a working product.
           </p>
 
           <div className="mt-8 flex max-w-xl flex-wrap gap-y-1">
